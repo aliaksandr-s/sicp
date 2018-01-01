@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  racket:
+    image: racket:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
